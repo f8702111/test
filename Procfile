@@ -1,0 +1,1 @@
+web:    java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT  --proxy-base-url https://f87temp.herokuapp.com target/*.war
